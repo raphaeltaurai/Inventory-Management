@@ -2,11 +2,11 @@
 
 I have been working in retail for a while now, and I have always been curious about how inventory moves through our warehouse bins. I wanted to challenge myself to build something practical that could actually help me understand our stock better, so I decided to dive into data analysis using Python. This project has been a great way to sharpen my programming skills while solving a real problem I see at work every day. The dataset I am analyzing comes from my workplace - a retail store where I got permission to export transaction and inventory data. The dataset includes two main CSV files, one tracking all inventory transactions (purchases, sales, transfers) and another showing current quantities on hand for each product in different warehouse locations. The data spans 2 days and includes thousands of transactions across multiple bins and products.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/sRb6__vPAew)
 
 # How to Run the Analysis
 
-The project runs in three sequential steps. You can either run all steps at once or execute them individually:
+The project runs in three sequential steps. Either run all steps at once or execute them individually:
 
 **Option 1: Run Everything (Recommended)**
 ```
@@ -55,11 +55,11 @@ I chose Python because of its strong data analysis libraries. I used the built-i
 
 # Useful Websites
 
-* [Pandas Official Documentation](https://pandas.pydata.org/docs/) - This was my go-to for understanding DataFrame operations and datetime handling
-* [Stack Overflow](https://stackoverflow.com/) - Saved me multiple times when I ran into weird issues with FIFO logic and data type conversions
-* [Real Python - Pandas Tutorials](https://realpython.com/learning-paths/pandas-data-science/) - Great for learning how to properly structure data analysis workflows
-* [Python CSV Module Docs](https://docs.python.org/3/library/csv.html) - Helped me understand the best way to read and write CSV files efficiently
-* [GeeksforGeeks - Python Collections](https://www.geeksforgeeks.org/python-collections-module/) - Useful for understanding deque operations for my FIFO implementation
+* [Pandas Official Documentation](https://pandas.pydata.org/docs/)
+* [Stack Overflow](https://stackoverflow.com/)
+* [Real Python - Pandas Tutorials](https://realpython.com/learning-paths/pandas-data-science/)
+* [Python CSV Module Docs](https://docs.python.org/3/library/csv.html)
+* [GeeksforGeeks - Python Collections](https://www.geeksforgeeks.org/python-collections-module/)
 
 # Future Work
 * Implement error handling for edge cases like missing data or malformed CSV entries - right now the code assumes clean data
