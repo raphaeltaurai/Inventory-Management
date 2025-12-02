@@ -9,27 +9,27 @@ I have been working in retail for a while now, and I have always been curious ab
 The project runs in three sequential steps. Either run all steps at once or execute them individually:
 
 **Option 1: Run Everything (Recommended)**
-```
+
 python runAll.py
-```
+
 This master script runs all three steps automatically and provides progress updates.
 
 **Option 2: Run Steps Individually**
 
 1. **Data Preparation** Merges transaction and quantity data:
-   ```
+   
    python quantities.py
-   ```
+   
 
 2. **Aging Analysis & Visualization** Calculates FIFO aging and generates charts:
-   ```
+   
    python binAging.py
-   ```
+   
 
 3. **Summary Report** Generates detailed statistics and insights:
-   ```
+   
    python summaryReport.py
-   ```
+   
 
 All output files (CSV reports, charts, and text summaries) are saved in the `Aged_Bins` folder.
 
